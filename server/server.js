@@ -18,7 +18,7 @@ app.use(cors());
 // Initialize OpenAI instance with the API key
 const openai = new OpenAI({
   apiKey: process.env.API_KEY,
-   //apiKey: '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',
+  
   )};
 
 // Set up multer for file uploads
